@@ -1,4 +1,5 @@
 ﻿using MeuAcerto.Selecao.KataGildedRose.ExtensionMethods;
+using MeuAcerto.Selecao.KataGildedRose.Herancas;
 using System.Collections.Generic;
 
 namespace MeuAcerto.Selecao.KataGildedRose
@@ -25,6 +26,7 @@ namespace MeuAcerto.Selecao.KataGildedRose
             return false;
         }
 
+        //solucao extensions methods
         public void AtualizarQualidade()
         {
 
@@ -41,6 +43,19 @@ namespace MeuAcerto.Selecao.KataGildedRose
             }
 
         }
+        //solucao factory
+        //public void AtualizarQualidade2()
+        //{
+
+        //    foreach (var item in Itens)
+        //    {
+        //        new ItemFactory().CriarItem(item).AtualizarItem();
+
+        //        if (EhQualidadeNegativa(item)) item.Qualidade = 0;
+        //        if (UltrapassouQualidadeMaxima(item)) item.Qualidade = 50;
+        //    }
+
+        //}
     }
 }
 
