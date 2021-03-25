@@ -13,11 +13,11 @@ namespace MeuAcerto.Selecao.KataGildedRose
 
             for (var i = 0; i < 31; i++)
             {
-                Console.WriteLine("-------- Teste dia " + i + " --------");
+                Console.WriteLine("-------- dia " + i + " --------");
                 ImprimirItens(itens, app);
                 app.AtualizarQualidade();
             }
-
+           
         }
 
         private static void ImprimirItens(IList<Item> itens, GildedRose app)
