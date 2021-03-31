@@ -44,18 +44,18 @@ namespace MeuAcerto.Selecao.KataGildedRose
 
         }
         //solucao factory
-        //public void AtualizarQualidade2()
-        //{
+        public void AtualizarQualidadeFactory()
+        {
 
-        //    foreach (var item in Itens)
-        //    {
-        //        new ItemFactory().CriarItem(item).AtualizarItem();
+            foreach (var item in Itens)
+            {
+                new ItemFactory().CriarItem(item).AtualizarItem();
 
-        //        if (EhQualidadeNegativa(item)) item.Qualidade = 0;
-        //        if (UltrapassouQualidadeMaxima(item)) item.Qualidade = 50;
-        //    }
+                if (EhQualidadeNegativa(item)) item.Qualidade = 0;
+                if (UltrapassouQualidadeMaxima(item)) item.Qualidade = 50;
+            }
 
-        //}
+        }
     }
 }
 

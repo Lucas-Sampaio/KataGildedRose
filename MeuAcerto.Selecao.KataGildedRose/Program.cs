@@ -15,7 +15,7 @@ namespace MeuAcerto.Selecao.KataGildedRose
             {
                 Console.WriteLine("-------- dia " + i + " --------");
                 ImprimirItens(itens, app);
-                app.AtualizarQualidade();
+                app.AtualizarQualidadeFactory();
             }
            
         }
